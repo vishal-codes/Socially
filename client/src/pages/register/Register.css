@@ -1,0 +1,9 @@
+.logInRegisterBox {
+    height: 400px;
+    padding: 20px;
+    background-color: #111111;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

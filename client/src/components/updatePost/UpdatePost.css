@@ -1,0 +1,125 @@
+.updatePostContainer {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left:0;
+    top:50px;
+    background-color: rgba(34, 34, 34, 0.705);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 200;
+    color: white;
+}
+
+.updatePost {
+    width: 40%;
+    border-radius: 5px;
+    border: 2px solid #4e4e4e;
+    background-color: #000;
+}
+
+.updatePostWrapper {
+    padding: 10px;
+}
+
+.updatePostTop {
+    display: flex;
+    align-items: center;
+}
+
+.updatePostProfileImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.updatePostInput {
+    margin-top: 30px;
+    border: none;
+    width: 86%;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    min-height: 16px;
+    font-family: sans-serif !important;
+    max-height: 200px;
+    resize: vertical;
+}
+
+.updatePostHr {
+    margin: 20px;
+}
+
+.updatePostImgContainer {
+    padding: 0 20px 10px 20px;
+    position: relative;
+}
+
+.updatePostImg {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+}
+
+.updatePostCancelImg {
+    position: absolute;
+    top: 5px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.updatePostBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.updatePostOptions{
+    display: flex;
+    margin-left: 20px;
+}
+
+.updatePostOption {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.updatePostIcon {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.updatePostOptionText {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.updatePostButton {
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #1d9bf6;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.cancelUpdatePostButton {
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+
+

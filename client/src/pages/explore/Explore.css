@@ -1,0 +1,46 @@
+.exploreContainer {
+    display: flex;
+}
+
+.exploreRight {
+    margin: 25px;
+    flex: 9;
+}
+
+.profileRightTopText {
+    font-size: 35px;
+}
+
+.exploreHr {
+    margin: 20px 0;
+}
+
+.allUsersContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 360px);
+    gap: 40px;
+    padding: 30px;
+}
+
+.individualUser {
+    display: flex;
+}
+
+.individualUserImg {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.individualUserInfo {
+    margin-left: 10px;
+}
+
+.individualUserInfoKey{
+    color: #c0c0c0;
+}
+
+.individualUserInfo span{
+    font-size: 19px;
+}

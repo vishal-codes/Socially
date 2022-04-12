@@ -1,0 +1,102 @@
+.share {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #4e4e4e;
+}
+
+.shareWrapper {
+    padding: 10px;
+}
+
+.shareTop {
+    display: flex;
+    align-items: center;
+}
+
+.shareProfileImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.shareInput {
+    margin-top: 30px;
+    border: none;
+    width: 83%;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    min-height: 16px;
+    font-family: sans-serif !important;
+    max-height: 200px;
+    resize: vertical;
+}
+
+.shareHr {
+    margin: 20px;
+}
+
+.shareBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shareOptions{
+    display: flex;
+    margin-left: 20px;
+}
+
+.shareOption {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.shareIcon {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.shareOptionText {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.shareButton {
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #1d9bf6;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.shareImgContainer {
+    padding: 0 20px 10px 20px;
+    position: relative;
+}
+
+.shareImg {
+    width: 100%;
+    object-fit: cover;
+}
+
+.shareCancelImg {
+    position: absolute;
+    top: 5px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.emoji-mart-dark {
+    position: fixed;
+    z-index: 100;
+    bottom: 10px;
+    right: 10px;
+}
